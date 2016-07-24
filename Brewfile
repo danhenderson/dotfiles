@@ -17,6 +17,8 @@ brew 'ruby-build'
 brew 'rbenv'
 brew 'unrar'
 brew 'wget'
+brew 'zsh'
+brew 'zsh-completions'
 
 cask '1password'
 cask 'atom'
