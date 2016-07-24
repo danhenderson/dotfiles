@@ -1,5 +1,5 @@
 [user]
-        name = AUTHORNAME
-        email = AUTHOREMAIL
+        name = danhenderson
+        email = danhenderson.web@gmail.com
 [credential]
         helper = GIT_CREDENTIAL_HELPER
