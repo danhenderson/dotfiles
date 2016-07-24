@@ -89,5 +89,5 @@ inspired from Ryan's original project.
 ## todo
 
 bash profile
-atom settings
-brew applications
+atom settings - packages / themes
+mkd / git alias
