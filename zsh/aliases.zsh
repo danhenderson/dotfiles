@@ -8,5 +8,7 @@ alias g='git'
 # file list shorthands
 alias l='ls -la'
 
-#list todos
-alias ltodo='ls ~/DESKTOP'
+# cd shorthands
+alias ..='cd ..'
+alias ../..='cd ../..'
+alias ../../..='cd ../../..'
