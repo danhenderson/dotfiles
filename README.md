@@ -88,6 +88,6 @@ inspired from Ryan's original project.
 
 ## todo
 
-bash profile
-atom settings - packages / themes
-mkd / git alias
+atom settings/packages/themes
+check/kill process - lsof -i tcp:3000 - kill -9 [PID]
+more alias/functions
