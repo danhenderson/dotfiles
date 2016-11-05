@@ -1,0 +1,12 @@
+execute pathogen#infect()
+syntax enable
+filetype plugin on
+
+colorscheme solarized
+
+set background=light
+set tabstop=2
+
+set backupdir=~/.vim/backup/
+set directory=~/.vim/swap/
+set undodir=~/.vim/undo/
