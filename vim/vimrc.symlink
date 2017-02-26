@@ -1,11 +1,14 @@
 execute pathogen#infect()
 syntax enable
-filetype plugin on
+filetype plugin indent on
 
 colorscheme solarized
 
+let delimitMate_expand_cr=1
+
 set background=light
-set tabstop=2
+set tabstop=8 softtabstop=0 expandtab shiftwidth=2 smarttab
+set number
 
 set backupdir=~/.vim/backup/
 set directory=~/.vim/swap/
