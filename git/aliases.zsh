@@ -23,3 +23,4 @@ alias gb='git branch'
 alias gf='git fetch'
 alias gs='git status -sb' # upgrade your git if -sb breaks for you. it's fun.
 alias gac='git add -A && git commit -m'
+alias gprune='git remote prune origin; git branch --merged master | grep -v "master$" | xargs git branch -d'
