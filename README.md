@@ -82,3 +82,4 @@ this script in `bin/`.
 
 - `dot` not working
 - simplify docs
+- switch from pathogen to something dot-fileable
