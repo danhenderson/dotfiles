@@ -15,7 +15,7 @@
         branch = auto
         ui = true
 [core]
-        excludesfile = ~/.gitignore
+	excludesfile = ~/.gitignore
         editor = vim
 	fileMode = false
 [apply]

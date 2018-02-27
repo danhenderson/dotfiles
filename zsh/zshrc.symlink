@@ -1,3 +1,7 @@
+# Configure nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+
 # shortcut to this dotfiles path is $ZSH
 export ZSH=$HOME/Repos/dotfiles
 
@@ -38,4 +42,15 @@ do
   source $file
 done
 
+eval "$(direnv hook $SHELL)"
+
 unset config_files
+export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
+export PATH="/Users/dan.henderson/Repos/plain-services-docker/bin:$PATH"
+
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[[ -f /Users/dan.henderson/.config/yarn/global/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/dan.henderson/.config/yarn/global/node_modules/tabtab/.completions/serverless.zsh
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[[ -f /Users/dan.henderson/.config/yarn/global/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/dan.henderson/.config/yarn/global/node_modules/tabtab/.completions/sls.zsh

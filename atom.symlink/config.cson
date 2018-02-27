@@ -1,0 +1,48 @@
+"*":
+  "atom-material-ui":
+    colors:
+      abaseColor: "#3cd764"
+      predefinedColor: "Blue Grey"
+    tabs:
+      compactTabs: true
+    treeView:
+      compactList: true
+    ui:
+      panelShadows: true
+  core:
+    disabledPackages: [
+      "emmet"
+      "vim-mode-plus"
+      "atom-import-cost"
+      "atom-fuzzy-grep"
+      "linter-flow"
+      "ide-typescript"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "atom-material-ui"
+      "aurora-theme"
+    ]
+  editor:
+    fontFamily: "Fira mono"
+    fontLigatures: true
+    fontSize: 12
+  "exception-reporting":
+    userId: "8d87cc25-fcd5-19af-28c1-4fff24c893f2"
+  "linter-eslint":
+    advancedLocalNodeModules: "/Users/dan.henderson/.nvm/versions/node/v8.6.0"
+    disableWhenNoEslintConfig: false
+    eslintRulesDirs: [
+      "~/"
+    ]
+    eslintrcPath: "~/.eslintrc"
+    useGlobalEslint: true
+  "linter-ui-default":
+    showPanel: true
+  "one-dark-ui":
+    fontSize: 11
+  teletype: {}
+  "tree-view":
+    hideVcsIgnoredFiles: false
+  welcome:
+    showOnStartup: false
