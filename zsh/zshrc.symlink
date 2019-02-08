@@ -54,3 +54,13 @@ export PATH="/Users/dan.henderson/Repos/plain-services-docker/bin:$PATH"
 # tabtab source for sls package
 # uninstall by removing these lines or running `tabtab uninstall sls`
 [[ -f /Users/dan.henderson/.config/yarn/global/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/dan.henderson/.config/yarn/global/node_modules/tabtab/.completions/sls.zsh
+
+# rbenv
+export PATH="$HOME/.rbenv/shims:$PATH"
+
+# asdf
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
+
+# erlang20
+export PATH="/usr/local/opt/erlang@20/bin:$PATH"
