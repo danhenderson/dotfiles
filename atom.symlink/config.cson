@@ -13,13 +13,12 @@
       "aurora-theme"
     ]
   editor:
-    fontFamily: "Inconsolata"
+    fontFamily: "Consolas"
   "exception-reporting":
     userId: "492f3e56-3aa9-4d93-90a9-1917e9a27bb5"
   "linter-flow":
     executablePath: "/usr/local/bin/flow"
-  "linter-ui-default":
-    panelHeight: 300
+  "linter-ui-default": {}
   "tree-view":
     hideVcsIgnoredFiles: false
   welcome:
